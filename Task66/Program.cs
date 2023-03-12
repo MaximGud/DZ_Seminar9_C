@@ -8,6 +8,12 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
+/// <summary>
+/// метод подсчет асуммы чисел в заданном диапазоне
+/// </summary>
+/// <param name="start">начальное число</param>
+/// <param name="end">конечное число</param>
+/// <returns></returns>
 int SummOfNumbers (int start, int end)
 {
   if (start==end) return end;
